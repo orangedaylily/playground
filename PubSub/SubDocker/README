@@ -1,0 +1,4 @@
+docker build -t consumer .
+docker run --net="host" consumer
+
+This will allow localhost from within the container to connect to docker host
