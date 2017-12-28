@@ -1,4 +1,0 @@
-docker build -t producer .
-docker run --net="host" producer
-
-This will allow localhost from within the container to connect to docker host
